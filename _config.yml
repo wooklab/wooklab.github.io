@@ -68,13 +68,18 @@ content:
           e-commerce 서비스
         description: | # this will include new lines to allow paragraphs
             * 검색서비스에 필요한 API/Batch 애플리케이션 개발 및 운영
-            * 가격비교서비스 검색기능 개발
-            * 검색 개선, 성능테스트
-            * ElasticSearch Cluster 구축 및 운영관리
+            * Production 환경 ElasticSearch Cluster 구축 및 운영관리
+            * 검색 API 개선, 성능 테스트
+            * Plain Java 색인 Batch를 SpringBatch 기반으로 개발 및 성능 최적화
+            * 성과
+              * 반복하여 발생했던 오류들을 해결하고 개선 및 최적화를 통해 안정화
+              * 색인 배치의 성능 최적화를 통해 40~50% 성능 향상(1억건 미만의 데이터처리 50~60분 -> 2억건 데이터처리 50분 내외)
+              * 팀의 코드 컨벤션 및 업무 프로세스 정규화를 통한 업무 효율 향상
             * Skills
               * Java
-              * Maven/Gradle/SrpingBoot/SpringBatch
-              * MySQL/Memcache/Redis/ElasticSearch
+              * Maven/Gradle/SrpingBoot/SpringBatch/Kafka
+              * MySQL/Memcache/Redis/ElasticSearch/Mongo
+              * Jira/Confluence/Bitbucket/Jenkins/AWS/On-Prem
       - layout: left
         title: 데이타솔루션
         link: datasolution.kr
@@ -87,6 +92,9 @@ content:
             * 정형/비정형 데이터 수집 Batch 애플리케이션 개발 및 운영
             * WEB 애플리케이션 개발
             * Hadoop, HBase, Zookeeper, ElasticSearch Cluster 구축
+            * 성공적으로 프로젝트를 완료하였으며, 프로젝트를 통해 데이터 수집-정제-색인에 대한 프로세스 전체적인 흐름을 이해
+            * 성과
+              * 지속적으로 누적되는 데이터로 인한 색인속도 저하가 발생하여, 샤드 수 조절을 통해 성능 향상
             * Skills
               * Java/JavaScript/jQuery/ShellScript
               * Maven/Spring MVC/iBatis/MyBatis
